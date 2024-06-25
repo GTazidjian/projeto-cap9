@@ -1,0 +1,124 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        background-color: #FFC0CB;
+        padding: 10px;
+        text-align: center;
+    }
+    .profile-pic {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #aaa;
+        display: inline-block;
+    }
+    .icons {
+       /* Icons would be added here using either img tags or font icons like FontAwesome */
+       text-align:right; 
+       margin-top:-40px; 
+       margin-right:10px; 
+    }
+    .tabs {
+      display:flex; 
+      justify-content:center; 
+      background-color:#FFC0CB; 
+      padding-bottom :5px
+     }
+     .tabs2 {
+      display:flex; 
+      justify-content:center; 
+      margin-bottom :2px ;  
+      padding :12px ;
+      background-color:rgb(255, 255, 255); 
+    }
+    
+     .tab{
+         flex-grow :1 ; 
+         text-align:center ;
+     }
+    
+   ul {
+       list-style-type:none ;  
+       padding-left :0 ;  
+   } 
+    
+   li{
+       background-color:#fff ;  
+       margin-bottom :2px ;  
+       padding :15px ;
+   } 
+   button{
+      width :100% ;  
+      background-color:#FDE3E3;
+      color: #FF6363;
+      border: none;
+      padding: 15px;
+      cursor: pointer;
+   }
+   button{
+      width :100% ;  
+      background-color:#FF6363;
+      color: #fcfafa;
+      border: none;
+      padding: 15px;
+      cursor: pointer;
+   }
+   
+
+   :root {
+    --cor1:#FDE3E3;
+    --cor2:#FF6363;
+    --cor3:#FECCCC;
+    --color-light: #FDE3E3;
+    --color-blue: #FECCCC;
+    --color-blue-alpha: #FF6363;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+table {
+    width: 100%;
+    margin: 1px auto;    
+    border-collapse: collapse; 
+    text-align: center;
+}
+caption {
+    font-size: 2rem;
+    color: var(--cor2);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+thead tr {
+    background:var(--color-light) ;
+    color: #0c0c0c;    
+}
+th,td {
+    width: 25%;
+    padding: 15px;
+}
+tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+tbody tr:last-child {
+    border-bottom: 20px solid var(--color-blue);
+}
+tbody tr:hover {
+    font-weight: 900;
+    background-color: var(--color-blue-alpha);
+    color: #ffffff;
+    cursor: pointer;
+}
+tfoot {
+    font-weight: 700;
+}
