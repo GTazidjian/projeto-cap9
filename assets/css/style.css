@@ -60,14 +60,6 @@
       padding: 15px;
       cursor: pointer;
    }
-   button{
-      width :100% ;  
-      background-color:#FF6363;
-      color: #fcfafa;
-      border: none;
-      padding: 15px;
-      cursor: pointer;
-   }
    
 
    :root {
@@ -92,7 +84,7 @@ table {
 }
 caption {
     font-size: 2rem;
-    color: var(--cor2);
+    color: var(--);
     font-weight: 900;
     margin-bottom: 10px;
 }
@@ -121,4 +113,57 @@ tbody tr:hover {
 }
 tfoot {
     font-weight: 700;
+}
+.add-service-btn button {
+    background-color: #FF6363;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Cabeçalho */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.initials {
+    font-size: 24px;
+    font-weight: bold;
+}
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* Lista de serviços */
+.service-list {
+    margin-top: 20px;
+}
+.service-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.service-name {
+    font-weight: bold;
+}
+/* Botão "Adicionar Serviço" */
+.add-service-btn {
+    margin-top: 20px;
+    text-align: center;
 }
